@@ -1,0 +1,10 @@
+Webcam.set({
+    image_format:"png",
+    height:300,
+    width:300,
+    png_quality:90,
+    constraints:{
+    facingMode:"environment"
+    }
+    });
+    Webcam.attach(document.getElementById("camera"));
